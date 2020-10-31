@@ -1,0 +1,25 @@
+
+body {
+    background-color: rgb(245, 242, 79) ;
+    color: black;
+    height: auto;
+    width: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+ }
+
+hr:after {content: '*';}
+    hr {
+      text-align: center;
+      color: #ffc93c;
+      border: none;
+      background-color: black;}
+a {
+  color:grey;
+}
+
+a:hover {
+background-color:grey ;
+color: rgb(245, 242, 79) ;
+}

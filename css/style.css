@@ -1,7 +1,7 @@
 
 body {
-    background-color: rgb(245, 242, 79) ;
-    color: black;
+    background-color: #83EAD0 ;
+    color: #008EB1;
     height: auto;
     width: auto;
     font-style: normal;
@@ -9,17 +9,32 @@ body {
     font-family: 'Roboto Slab', serif;
  }
 
-hr:after {content: '*';}
     hr {
       text-align: center;
-      color: #ffc93c;
+      color: #009B77;
       border: none;
-      background-color: black;}
+      border-top: 5px dotted;
+      width: 100%;
+    }
+
 a {
-  color:grey;
+  color:#FF0080;
 }
 
 a:hover {
-background-color:grey ;
+background-color:#FF0080 ;
 color: rgb(245, 242, 79) ;
+}
+
+.mainpicture {
+  text-align: center;
+}
+
+h2 {
+font-size: 1.5em;
+}
+
+#hInfo {
+font-style: italic;
+font-weight: bold;
 }

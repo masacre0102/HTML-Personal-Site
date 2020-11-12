@@ -1,29 +1,36 @@
+header img {
+border-radius: 20px 150px;
+}
 
 body {
-    background-color: #83EAD0 ;
-    color: #008EB1;
-    height: auto;
-    width: auto;
-    font-style: normal;
-    font-weight: bold;
-    font-family: 'Roboto Slab', serif;
+  background-color: rgb(36, 17, 55) ;
+  color: #0cb4ec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-family: 'Roboto Slab', serif;
  }
 
-    hr {
-      text-align: center;
-      color: #009B77;
-      border: none;
-      border-top: 5px dotted;
-      width: 100%;
-    }
+ main {
+  flex-grow: 1;
+}
+
+hr {
+  text-align: center;
+  color: #064F67;
+  border: none;
+  border-top: 5px solid;
+  width: 100%;
+}
 
 a {
-  color:#FF0080;
+  color:#f2a1ca;
 }
 
 a:hover {
-background-color:#FF0080 ;
-color: rgb(245, 242, 79) ;
+  background-color:#f2a1ca ;
+  color: rgb(78, 115, 245) ;
 }
 
 .mainpicture {
@@ -31,10 +38,41 @@ color: rgb(245, 242, 79) ;
 }
 
 h2 {
-font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 #hInfo {
-font-style: italic;
-font-weight: bold;
+  font-style: italic;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #031225;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  float: left;
+  color: #f2a1ca;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #f2a1ca;
+  color: rgb(78, 115, 245);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #031225;
+  color: #0cb4ec;
+  height: 10%;
+  margin-top: auto;
 }

@@ -25,21 +25,7 @@ nav ul{
 nav a{
   color: black;
 }
-@media only screen and (max-width: 640px) {
-  figure[style] {
-    transform: initial !important;
-  }
-}
-/*@media only screen and (max-width:945px) {
-  .parallax1{
-    background-attachment: scroll;
-    background-size: 100% 100%;
-   }
-  .parallax2{
-     background-attachment: scroll;
-     background-size: auto;
-  }
-}*/
+
 .parallax1{
     background-image: url(background-images/image3.jpg);
     height: 100%;
@@ -74,6 +60,16 @@ footer{
 footer h6{
   margin: 0;
 }
+
+@media only screen and (max-device-width: 945px) {
+  .parallax1{
+    background-attachment: scroll;
+   }
+  .parallax2{
+     background-attachment: scroll;
+  }
+}
+
 </style>
 </head>
 <body>
